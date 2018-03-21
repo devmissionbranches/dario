@@ -1,66 +1,72 @@
-* {box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
-body{
-  color: #ff4d00;
+
+body {
+  color: ;
   font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue"
-    sans-serif;
-
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-::selection{
+
+::selection {
    background: #00ffd0;
 }
-a{
+
+a {
   font-weight: bold;
   text-decoration:none;
-  color: #70f;
+  color: #00fffb;
 }
-a:hover{
+
+a:hover {
   /*Typhography Declarations*/
   color: #d000ff;
 }
-a:visied{
+
+a:visited {
   /*Typography Declarations*/
   color: #007bff;
 }
+
 .masthead,
 .introduction,
 .location,
 .questions,
-.content-footer{
- padding-left: 2em;
- padding-right: 2em;
+.content-footer {
+   padding-left: 2em;
+   padding-right: 2em;
 }
+
 .masthead-intro,
 .masthead-heading,
-.content-footer> p,
-.social{
-  text-align:center;
+.content-footer > p,
+.social {
+ text-align: center;
 }
 
 .introduction,
 .location,
 .questions {
-  max-width: 38em;
-  margin-left: auto;
-  margin-right: auto;
+   max-width: 38em;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .introduction > p,
 .location > p,
-.content-footer > p {
-  font-weight: 300;
-  letter-spacing: 0.05em;
+.content-footer > p, {
+   font-weight: 300;
+   letter-spacing: 0.05em;
 }
 
 .masthead {
   padding: 6em 0;
   background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/wallpaper-background-12-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: solid 1em #color: #00fff7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #00fff7;
 }
+
 .masthead-intro {
 	/* Layout Declarations */
 	margin-bottom: 0.1em;
@@ -137,5 +143,12 @@ a:visied{
   }
   .masthead-heading {
     font-size: 3em;
-  }
+}
+}
+img {
+  width: 300px;
+  margin-left: 500px;
+  margin-top: 50px;
+  border: 15px ridge #00f2ff;
+  position: center;
 }
